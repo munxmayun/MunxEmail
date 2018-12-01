@@ -1,5 +1,7 @@
-# munx-email
-Mailer 6.0
+# MunxEmail
+简介
+这是PHPMailer 6.0.6版本
+源码地址https://github.com/PHPMailer/PHPMailer.git
 #功能
 集成SMTP支持 - 无需本地邮件服务器即可发送
 发送包含多个To，CC，BCC和Reply-to地址的电子邮件
