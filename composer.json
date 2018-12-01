@@ -1,0 +1,19 @@
+{
+    "name": "munx/email",
+    "description": "这是PHPMailer 6..0.6版本，这里我拿来放在自己库里方便管理事业，如果要求删除请联系，会立即删除",
+    "authors": [
+        {
+            "name": "munx",
+            "email": "munxmayun@163.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MunxEmail\\": "src/"
+        }
+    }
+}
