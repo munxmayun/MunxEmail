@@ -1,18 +1,18 @@
-# MunxEmail
-简介
-这是PHPMailer 6.0.6版本
-源码地址https://github.com/PHPMailer/PHPMailer.git
-#功能
-集成SMTP支持 - 无需本地邮件服务器即可发送
-发送包含多个To，CC，BCC和Reply-to地址的电子邮件
-添加附件，包括内联
-支持UTF-8内容和8bit，base64，二进制和引用可打印的编码
-通过SSL和SMTP + STARTTLS传输使用LOGIN，PLAIN，CRAM-MD5和XOAUTH2机制进行SMTP身份验证
-兼容PHP 5.5及更高版本
-自动验证电子邮件地址
-#使用方法
-composer require munx-email/munx-email dev-master 
-class Mail {
+# MunxEmail  
+简介  
+这是PHPMailer 6.0.6版本  
+源码地址https://github.com/PHPMailer/PHPMailer.git  
+#功能  
+集成SMTP支持 - 无需本地邮件服务器即可发送  
+发送包含多个To，CC，BCC和Reply-to地址的电子邮件  
+添加附件，包括内联  
+支持UTF-8内容和8bit，base64，二进制和引用可打印的编码  
+通过SSL和SMTP + STARTTLS传输使用LOGIN，PLAIN，CRAM-MD5和XOAUTH2机制进行SMTP身份验证  
+兼容PHP 5.5及更高版本  
+自动验证电子邮件地址  
+#使用方法  
+composer require munx-email/munx-email dev-master   
+class Mail {  
 
     public function sendMail($param, $code) {
         // 实例化PHPMailer核心类
