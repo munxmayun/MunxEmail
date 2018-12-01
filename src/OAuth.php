@@ -18,7 +18,7 @@
  * FITNESS FOR A PARTICULAR PURPOSE.
  */
 
-namespace phpmailer\src;
+namespace MunxEmail\src;
 
 use League\OAuth2\Client\Grant\RefreshToken;
 use League\OAuth2\Client\Provider\AbstractProvider;

@@ -18,7 +18,7 @@
  * FITNESS FOR A PARTICULAR PURPOSE.
  */
 
-namespace phpmailer\src;
+namespace MunxEmail\src;
 
 /**
  * PHPMailer POP-Before-SMTP Authentication Class.
