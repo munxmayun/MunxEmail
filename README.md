@@ -12,8 +12,9 @@
 自动验证电子邮件地址  
 #使用方法  
 composer require munx-email/munx-email dev-master   
-class Mail {  
 
+
+class Mail{  
     public function sendMail($param, $code) {
         // 实例化PHPMailer核心类
         $mail = new PHPMailer();
